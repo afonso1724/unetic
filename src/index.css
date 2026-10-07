@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-unetic-blue: #0265dc;
+  --color-unetic-deep-blue: #034ea2;
+  --color-unetic-green: #00A859;
+  --color-unetic-gold: #F59E0B;
+}
+
+/* Global School Watermark (Entire Page Background) */
+.school-page-watermark {
+  position: fixed;
+  inset: 0;
+  background-image: url('/assets/colegio.jpeg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.16;
+  filter: contrast(1.1) brightness(1.02);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* School Crest Watermark for specific sections (About & Footer) */
+.crest-watermark {
+  position: absolute;
+  background-image: url('/assets/logo-cnsa.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  pointer-events: none;
+  opacity: 0.055;
+}
+
+/* UNETIC Modern Glassmorphism Classes */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(2, 101, 220, 0.14);
+}
+
+.glass-panel-dark {
+  background: rgba(7, 16, 34, 0.82);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(2, 101, 220, 0.25);
+}
+
+.glass-panel-unetic {
+  background: rgba(3, 78, 162, 0.94);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 168, 89, 0.35);
+}
+
+/* Gradient Accents */
+.unetic-gradient-text {
+  background: linear-gradient(135deg, #0284c7 0%, #0265dc 50%, #00A859 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.unetic-glow-blue {
+  box-shadow: 0 0 25px -4px rgba(2, 101, 220, 0.35);
+}
+
+.unetic-glow-green {
+  box-shadow: 0 0 25px -4px rgba(0, 168, 89, 0.35);
+}
+
+.unetic-glow-gold {
+  box-shadow: 0 0 25px -4px rgba(245, 158, 11, 0.35);
+}
+
+/* Subtle Animated Grid Pattern */
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: linear-gradient(to right, rgba(2, 101, 220, 0.05) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(2, 101, 220, 0.05) 1px, transparent 1px);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0265dc;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #034ea2;
+}
