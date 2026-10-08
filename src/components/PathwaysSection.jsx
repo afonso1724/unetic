@@ -62,7 +62,7 @@ export default function PathwaysSection() {
       <div className="absolute bottom-1/4 left-0 w-96 h-96 bg-[#00A859]/10 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        
+
         {/* Section Heading */}
         <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
           <motion.div
@@ -71,10 +71,9 @@ export default function PathwaysSection() {
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#0265dc]/10 border border-[#0265dc]/25 text-[#0265dc] text-xs font-bold uppercase tracking-wider mb-4"
           >
-            <Sparkles className="w-3.5 h-3.5 text-[#00A859]" />
             <span>Matriz de Investigação 13.ª Classe</span>
           </motion.div>
-          
+
           <motion.h2
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -84,7 +83,7 @@ export default function PathwaysSection() {
           >
             Cursos Técnicos & <span className="text-[#0265dc]">Temas a Investigar</span>
           </motion.h2>
-          
+
           <motion.p
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -94,7 +93,7 @@ export default function PathwaysSection() {
           >
             Explore os possíveis temas de investigação propostos para cada área técnica, concebidos para responder com soluções práticas aos desafios concretos da sociedade angolana.
           </motion.p>
-          
+
           <div className="w-24 h-1 bg-gradient-to-r from-[#0265dc] via-[#00A859] to-[#F59E0B] mx-auto mt-4 rounded-full" />
         </div>
 
@@ -112,11 +111,10 @@ export default function PathwaysSection() {
                 }}
                 whileHover={{ scale: 1.02, y: -2 }}
                 whileTap={{ scale: 0.98 }}
-                className={`relative p-4 rounded-2xl text-left transition-all duration-300 flex flex-col justify-between border-2 ${
-                  isSelected
+                className={`relative p-4 rounded-2xl text-left transition-all duration-300 flex flex-col justify-between border-2 ${isSelected
                     ? 'bg-white shadow-xl -translate-y-1'
                     : 'bg-white/80 hover:bg-white hover:shadow-md border-slate-200'
-                }`}
+                  }`}
                 style={{
                   borderColor: isSelected ? pathway.color : undefined,
                 }}
@@ -248,9 +246,8 @@ export default function PathwaysSection() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.35, delay: tIdx * 0.08 }}
                         whileHover={{ y: -4, borderColor: selectedPathway.color }}
-                        className={`p-6 rounded-2xl bg-white border-2 border-slate-200/90 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between relative overflow-hidden group ${
-                          isExpanded ? 'ring-2' : ''
-                        }`}
+                        className={`p-6 rounded-2xl bg-white border-2 border-slate-200/90 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between relative overflow-hidden group ${isExpanded ? 'ring-2' : ''
+                          }`}
                         style={{
                           borderColor: isExpanded ? selectedPathway.color : undefined,
                         }}

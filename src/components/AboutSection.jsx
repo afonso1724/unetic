@@ -56,7 +56,6 @@ export default function AboutSection() {
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#0265dc]/10 border border-[#0265dc]/25 text-[#0265dc] text-xs font-bold uppercase tracking-wider mb-4"
           >
-            <GraduationCap className="w-4 h-4 text-[#00A859]" />
             <span>Identidade & Propósito Institucional</span>
           </motion.div>
           <motion.h2
@@ -181,7 +180,7 @@ export default function AboutSection() {
                 O projeto <strong>UNETIC</strong> nasce no seio do <strong>Instituto Politécnico Privado Nossa Senhora da Anunciação</strong> com a missão de transformar o trabalho de fim de curso numa verdadeira incubadora de soluções práticas para Angola.
               </p>
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
-                Com uma orientação pedagógica de excelência institucional, os alunos finalistas da 13.ª Classe deixam de desenvolver projetos meramente teóricos para enfrentar <em>in loco</em> as problemáticas reais de Luanda Sul — desde as águas pluviais que condicionam a mobilidade até à transição dos pequenos operadores económicos para o sistema tributário digital da AGT.
+                Com uma orientação pedagógica de excelência institucional, os alunos finalistas da 13.ª Classe deixam de desenvolver projetos meramente teóricos para enfrentar <em>in loco</em> as problemáticas reais desde as águas pluviais que condicionam a mobilidade até à transição dos pequenos operadores económicos para o sistema tributário digital da AGT.
               </p>
             </motion.div>
 

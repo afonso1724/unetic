@@ -30,7 +30,7 @@ export default function MethodologySection() {
       <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-[#00A859]/5 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        
+
         {/* Section Heading */}
         <div className="text-center max-w-3xl mx-auto mb-16 sm:mb-20">
           <motion.div
@@ -39,10 +39,9 @@ export default function MethodologySection() {
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#0265dc]/10 border border-[#0265dc]/25 text-[#0265dc] text-xs font-bold uppercase tracking-wider mb-4"
           >
-            <Flag className="w-3.5 h-3.5 text-[#00A859]" />
             <span>Engenharia Pedagógica Rigorosa</span>
           </motion.div>
-          
+
           <motion.h2
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -52,7 +51,7 @@ export default function MethodologySection() {
           >
             Metodologia Científica: O <span className="text-[#0265dc]">Ciclo em 6 Etapas</span>
           </motion.h2>
-          
+
           <motion.p
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -62,7 +61,7 @@ export default function MethodologySection() {
           >
             Concebida pelo Instituto Politécnico Privado Nossa Senhora da Anunciação, esta arquitetura processual garante a transição rigorosa entre o diagnóstico do problema urbano até à validação e defesa pública.
           </motion.p>
-          
+
           <div className="w-24 h-1 bg-gradient-to-r from-[#0265dc] via-[#00A859] to-[#F59E0B] mx-auto mt-4 rounded-full" />
         </div>
 

@@ -22,7 +22,6 @@ export default function EvaluationAndPartnersSection() {
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#0265dc]/10 border border-[#0265dc]/25 text-[#0265dc] text-xs font-bold uppercase tracking-wider mb-4"
           >
-            <Scale className="w-3.5 h-3.5 text-[#00A859]" />
             <span>Critérios de Rigor & Julgamento Técnico</span>
           </motion.div>
 

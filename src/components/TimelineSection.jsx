@@ -22,7 +22,6 @@ export default function TimelineSection() {
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#0265dc]/10 border border-[#0265dc]/25 text-[#0265dc] text-xs font-bold uppercase tracking-wider mb-4"
           >
-            <Calendar className="w-3.5 h-3.5 text-[#00A859]" />
             <span>Cronograma Executivo & Fórum</span>
           </motion.div>
 
@@ -90,8 +89,8 @@ export default function TimelineSection() {
                     {/* Card Container */}
                     <div
                       className={`p-5 sm:p-6 rounded-2xl border-2 transition-all duration-300 ${isCurrentSelected
-                          ? 'bg-white shadow-lg border-[#0265dc]'
-                          : 'bg-[#FAFBFD] hover:bg-white border-slate-200/90 hover:border-slate-300'
+                        ? 'bg-white shadow-lg border-[#0265dc]'
+                        : 'bg-[#FAFBFD] hover:bg-white border-slate-200/90 hover:border-slate-300'
                         }`}
                     >
                       <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
